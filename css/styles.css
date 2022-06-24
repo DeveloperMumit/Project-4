@@ -216,3 +216,42 @@
 .smart-area-text > a:hover{
     background-color: #4e2626;
 }
+
+/* Third section start here */
+#third-section{
+    background-color: #fafafa;
+}
+.services-area-title{
+    text-align: center;
+    padding: 50px 0 60px;
+}
+.services-area-title > h2{
+    font-size: 40px;
+}
+.each-services-parent{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding-bottom: 60px;
+}
+.services-area{
+    width: 1000px;
+    margin: auto;
+
+}
+.each-services{
+    background-color: lightblue;
+    text-align: center;
+    padding: 30px 0;
+    transition: .5s;
+}
+.each-services:hover{
+    background-color: #77b2c5;
+}
+.each-services > i{
+    font-size: 40px;
+    color: #7f4646;
+}
+.each-services > h3{
+    margin: 15px 0;
+}
