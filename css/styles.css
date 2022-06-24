@@ -275,7 +275,7 @@
     padding: 50px 0;
 }
 .signle-card-img{
-    width: 310px;
+    width: 31 0px;
 }
 .signle-card-img > img{
     width: 100%;
@@ -317,4 +317,137 @@
     text-decoration: none;
     margin: 15px 0;
     display: inline-block;
+}
+
+/* testomnial start here */
+
+#testo-section{
+    background-color: bisque;
+}
+.testo-parent{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 25px;
+}
+.testo-container{
+    width: 1000px;
+    margin: auto;
+    padding-bottom: 100px;
+}
+.testo-title{
+    text-align: center;
+    padding: 50px;
+}
+.testo-title > h2{
+    font-size: 35px;
+    margin-top: 10px;
+}
+
+.testo-title > h3{
+    color: gray;
+    letter-spacing: 0.3em;
+}
+.testo-single-card{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+}
+.testo-img{
+    width: 200px;
+    margin-right: 20px;
+    padding: 10px 5px;
+    border-radius: 50%;
+}
+.testo-img img{
+    width: 100%;
+    border-radius: 50%;
+    border: 2px solid red;
+}
+.testo-span{
+    font-size: 22px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+.testo-rating{
+    color: #ffa534;
+    margin-top: 10px;
+}
+
+/* parallax code start here */
+#parallal-section{
+    background-image: url(../img/parallax.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 100px 0;
+}
+.parallax-parent{
+    display: flex;
+    width: 1000px;
+    margin: auto;
+    justify-content: space-between;
+    text-align: center;
+    color: #ffffff;
+    
+}
+.parallax-single-item i{
+    font-size: 40px; 
+}
+.parallax-single-item h2{
+    font-size: 40;
+    margin: 20px 0;
+}
+
+/* Blog From section here*/
+.blog-container{
+    width: 1000px;
+    margin: auto;
+}
+.single-blog-item-parent{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 25px;
+}
+.blog-image{
+    max-width: 100%;
+    height: 250px;
+    transition: .5s;
+}
+.blog-img-icon-div{
+    position: relative;
+    overflow: hidden;
+}
+.blog-img-icon-div:hover .blog-icon{
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.356);
+}
+.blog-img-icon-div:hover .blog-image{
+    transform: scale(1.8);
+    
+}
+.blog-icon{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-content: center;
+    text-align: center;
+    color: #fff;
+    font-size: 22px;
+    opacity: 0;
+    
+}
+.blog-icon i{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.blog-single-text h3{
+    margin: 10px 0;
+}
+.blog-single-text p{
+    color: gray;
 }
