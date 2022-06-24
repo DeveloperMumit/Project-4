@@ -1,7 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-
 }
 #navigation {
     background-image: linear-gradient(#0041ff, #186495);
@@ -254,4 +253,68 @@
 }
 .each-services > h3{
     margin: 15px 0;
+}
+
+/* four section start here */
+#pricing-section{
+    background-color: whitesmoke;
+}
+#pricing-container{
+    width: 1000px;
+    margin: auto;
+    padding-bottom: 100px;
+}
+.pricing-parent{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.pricing-title{
+    font-size: 40px;
+    text-align: center;
+    padding: 50px 0;
+}
+.signle-card-img{
+    width: 310px;
+}
+.signle-card-img > img{
+    width: 100%;
+}
+.single-card{
+    width: 310px;
+    box-shadow: 5px 5px 10px gray;
+}
+.single-card > h3{
+    margin: 10px 0;
+}
+.month-pricing{
+    border-top: 1px dashed gray;
+    border-bottom: 1px dashed gray;
+    padding: 15px 0;
+    margin: 10px 20px;
+}
+.pricing-span-1{
+    font-size: 25px;
+}
+.pricing-span-2{
+    color: gray;
+}
+.single-card > button{
+    background-color: #7f4646;
+    color: white;
+    padding: 10px 40px;
+    border-radius: 5px;
+    display: block;
+    cursor: pointer;
+    transition: .5s;
+    margin: auto;
+}
+.single-card > button:hover{
+    background-color: rgba(0, 0, 0, 0);
+    color: #000;
+}
+.single-card a{
+    text-decoration: none;
+    margin: 15px 0;
+    display: inline-block;
 }
