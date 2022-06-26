@@ -65,7 +65,7 @@
 .dropdownMenu > li:first-child{
     border-top: 1px solid #fff;
 }
-#navigation > ul > li:hover > .dropdownMenu {
+#navigation > ul > li:hover .dropdownMenu {
     opacity: 1; 
     visibility: visible;
     transform: scaleY(1);
@@ -146,14 +146,14 @@
 
 /* first ection code here */
 #first-section {
-    background-color: #e8e5e2;
+    background: aliceblue;
 }
 #first-container{
     display: flex;
     width: 1000px;
     margin: auto;
     justify-content: space-between;
-    padding: 100px 0;
+    padding: 120px 0;
 }
 .card-design{
     width: 300px;
@@ -170,15 +170,24 @@
 .card-design > h2{
     margin: 15px 0;
 }
+
+/* smart area code start here */
+.smart-area-container{
+    padding: 50px 0;
+}
+.smart-area-title{
+    position: relative;
+    width: 200px;
+    margin: auto;
+}
 .smart-area-title > h2{
     font-size: 40px;
     text-align: center;
-    position: relative;
 }
 .smart-area-title > h2::after {
     content: "";
     top: 50px;
-    left: 901px;
+    left: 51px;
     width: 100px;
     height: 5px;
     background-color: #7f4646;
@@ -450,4 +459,133 @@
 }
 .blog-single-text p{
     color: gray;
+}
+
+/* contact section code here */
+.contact-section-container{
+    width: 1000px;
+    margin: auto;
+    padding-bottom: 100px;
+}
+.form-parent{
+    background-color: #EAECEF;
+    display: flex;
+}
+.fullname-email-parent{
+    display: flex;
+}
+.form-tag{
+    width: 600px;
+}
+.fullname-email-parent h4{
+    margin: 40px 20px 10px 20px;
+}
+.fullname-email-parent input{
+    width: 200px;
+    height: 40px;
+    margin: 0 20px;
+    border: none;
+    padding: 0 10px;
+}
+.subject-input{
+    width: 85%;
+    height: 40px;
+    margin: 0 20px;
+    border: none;
+    padding: 0 10px;
+}
+.subject-input-text{
+    margin: 20px 20px 10px 20px;
+}
+.form-text-area{
+    width: 85%;
+    border: none;
+    height: 100px;
+    margin: 0 20px;
+    padding: 5px 10px;
+}
+.form-button{
+    background-color: #244594;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin: 20px 0 0 20px;
+}
+.form-address-parent{
+    display: flex;
+    padding-top: 50px;
+    justify-content: space-between;
+}
+.form-single-address{
+    text-align: center;
+}
+.form-single-address i{
+    background-color: #3252AF;
+    padding: 20px;
+    color: #fff;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.form-single-address span{
+    font-weight: bold;
+}
+
+/* footer section start here */
+footer, footer a{
+    background-color: #002D5E;
+    color: gray;
+}
+footer h3{
+    color: #fff;
+}
+footer ul li{
+    list-style: none;
+    margin-top: 10px;
+}
+footer ul li a{
+    text-decoration: none;
+}
+footer i{
+    color: #fff;
+}
+.footer-container{
+    width: 1000px;
+    margin: auto;
+    padding: 30px 0;
+}
+.footer-single-item-parent{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-single-item{
+    width: 220px;
+}
+.footer-single-item p{
+    margin: 20px 0;
+}
+.footer-menu-item ul{
+    display: flex;
+    justify-content: center;
+}
+.footer-menu-item ul li{
+    list-style: none;
+    margin: 20px;
+}
+.footer-menu-item ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+   
+}
+.footer-menu-item p{
+        text-align: center;
+        padding-top: 20px;
+}
+.footer-menu-item span{
+    color: brown;
+}
+hr{
+    margin-top: 20px;
 }
